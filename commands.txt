@@ -1,0 +1,60 @@
+ping
+ping I,E,E
+ping I,E,E --delay 5
+ping-frag-sep
+ping-frag-sep --pn-per-qos
+ping I,E --amsdu
+amsdu-inject
+amsdu-inject-bad
+ping I,F,BE,AE
+ping I,F,BE,AE --pn-per-qos
+ping I,E,R,AE
+ping I,E,R,E
+ping I,E,R,AE --full-recon
+ping I,E,R,E --full-recon
+ping I,E,E --inc-pn 2
+ping I,E,P
+ping I,P,E
+ping I,P
+ping I,P,P
+linux-plain
+ping I,D,P --bcast-ra
+ping D,BP --bcast-ra
+eapol-amsdu I,P
+eapol-amsdu BP
+eapol-amsdu-bad I,P
+eapol-amsdu-bad BP
+ping I,E --amsdu-fake
+ping I,E --amsdu-fake --amsdu-spp
+ping I,F,BE,E
+ping I,E,F,AE
+ping I,E,F,AE --rekey-plain
+ping I,E,F,AE --rekey-plain --rekey-req
+ping I,E,F,AE --rekey-early-install
+ping I,E,F,E 
+ping I,E,F,E --rekey-pl
+ping I,E,F,E --rekey-req
+ping I,E,F,E --rekey-pl --rekey-req
+ping I,F,BE,AE --freebsd
+ping I,E,R,AE --freebsd 
+ping I,E,R,AE --freebsd --full-reconnect
+ping I,E,R,AP --freebsd
+ping I,E,R,AP --freebsd --full-reconnect
+ping I,E,R,AP
+ping I,E,R,AP --full-reconnect
+ping I,E,E --amsdu
+ping I,E,P,E
+linux-plain 3
+ping I,P --bcast-ra
+ping BP --bcast-ra 
+ping BP --bcast-ra --bcast-dst
+ping BP
+ping BP --bcast-dst
+eapfrag BP,BP
+eapol-amsdu BP --bcast-dst
+eapol-amsdu-bad BP --bcast-dst
+eapol-inject 00:11:22:33:44:55
+eapol-inject-large 00:11:22:33:44:55
+ping I,D,E
+ping I,E,D
+

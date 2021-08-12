@@ -1,0 +1,97 @@
+ping
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:55:32] [0;32m>>> TEST COMPLETED SUCCESSFULLY[1;0m
+ping I,E,E
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:55:37] [0;32m>>> TEST COMPLETED SUCCESSFULLY[1;0m
+ping I,E,E --delay 5
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:55:51] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping-frag-sep
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:56:00] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping-frag-sep --pn-per-qos
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:56:05] [0;32m>>> TEST COMPLETED SUCCESSFULLY[1;0m
+ping I,E --amsdu
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:56:09] [0;32m>>> TEST COMPLETED SUCCESSFULLY[1;0m
+amsdu-inject
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:56:18] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+amsdu-inject-bad
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:56:27] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,F,BE,AE
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+ping I,F,BE,AE --pn-per-qos
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+ping I,E,R,AE
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:57:43] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E,R,E
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully (based on lower layer success)
+[14:57:59] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E,R,AE --full-recon
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:58:12] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E,R,E --full-recon
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:58:23] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E,E --inc-pn 2
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:58:32] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E,P
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:58:41] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,P,E
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:58:50] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,P
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:00] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,P,P
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:09] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+linux-plain
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:18] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,D,P --bcast-ra
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:27] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping D,BP --bcast-ra
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:30] [0;32m>>> All frames sent. You must manually check if the test succeeded (see README).[1;0m
+[14:59:35] Closing down. Remember to manually check whether the test succeeded or not.[1;0m
+eapol-amsdu I,P
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:45] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+eapol-amsdu BP
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[14:59:48] [0;32m>>> All frames sent. You must manually check if the test succeeded (see README).[1;0m
+[14:59:53] Closing down. Remember to manually check whether the test succeeded or not.[1;0m
+eapol-amsdu-bad I,P
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[15:00:02] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+eapol-amsdu-bad BP
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[15:00:05] [0;32m>>> All frames sent. You must manually check if the test succeeded (see README).[1;0m
+[15:00:10] Closing down. Remember to manually check whether the test succeeded or not.[1;0m
+ping I,E --amsdu-fake
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[15:00:19] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,E --amsdu-fake --amsdu-spp
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[15:00:29] [0;31m>>> Test timed out! Retry to be sure, or manually check result.[1;0m
+ping I,F,BE,E
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+ping I,E,F,AE
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+ping I,E,F,AE --rekey-plain
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+ping I,E,F,AE --rekey-plain --rekey-req
+wlan1: CTRL-EVENT-EAP-SUCCESS EAP authentication completed successfully
+[15:02:04] [0;32mActively requesting PTK rekey[1;0m
+ping I,E,F,AE --rekey-early-install
